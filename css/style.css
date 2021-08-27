@@ -14,6 +14,7 @@ html,body{
 header{
     width: 100%;
     height: 90vh;
+    min-height: 530px;
     background-image: url(../images/capa.png);
     background-position: center;
     background-size: cover;
@@ -22,7 +23,7 @@ header{
 .flex-header{
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 40px 150px;
 }
 .logo{
     color: white;
@@ -36,26 +37,81 @@ header nav ul li a{
     text-decoration: none;
     color: white;
     padding: 17px;
+    font-size: 15px;
+    
+}
+
+header nav ul li a:hover{
+    color: #ccc;
 }
 
 .content-header{
     float: right;
-    margin: 100px 180px;
+    margin: 100px 160px;
     max-width: 600px;
     color: white;
 }
 
 .content-header h2{
-    font-size: 40px;
-    font-weight: normal;
+    font-size: 45px;
+    font-weight: lighter;
     margin-bottom: 10px;
 }
 
 .content-header p{
     font-size: 14px;
     max-width: 600px;
+    font-weight: lighter;
 }
 
 .clear{
     clear: both;
+}
+
+.section-1{
+    padding: 0 20%;
+    width: 100%;
+    display: flex;
+    background-color: #472562;
+    justify-content: space-between;
+}
+
+.content-section-1{
+    color: white;
+}
+
+.content-section-1 h2{
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.content-section-1 p{
+    font-size: 13px;
+}
+
+.content-section-1 li{
+    font-weight: lighter;
+    font-size: 13px;
+    list-style-position: inside;
+}
+
+.content-section-1 button{
+    font-size: 16px;
+    margin-top: 8px;
+    padding: 12px 15px;
+    color: white;
+    background-color: #FF703D;
+    border: 0;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.section-1 .img-section{
+    width: 26vw;
+    min-width: 250px;
+    height: 300px;
+    background-image: url(../images/device.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
