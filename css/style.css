@@ -50,15 +50,22 @@ header{
 	font-weight: lighter;
 }
 
+.menu ul li a:hover{
+	color: #ddd;
+}
+
 .flex-content-header{
 	display: flex;
 	justify-content: flex-end;
+	align-items: flex-end;
+	max-height: 300px;
+	min-height: 250px;
+	height: 100vh;
 }
 
 .content-header{
 	color: white;
 	padding-right: 10%;
-	padding-top: 160px;
 }
 
 .content-header h2{
@@ -101,7 +108,7 @@ header{
 }
 
 .content-section-1 nav ul li{
-	font-size: 14px;
+	font-size: 13px;
 	list-style-position: inside;
 }
 
@@ -113,6 +120,12 @@ header{
 	font-size: 16px;
 	margin-top: 10px;
 	border-radius: 20px;
+	cursor: pointer;
+	
+}
+
+.content-section-1 button:hover{
+	border: 1px solid #e9612f;
 }
 
 .img-section-1{
