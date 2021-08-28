@@ -17,7 +17,8 @@ html,body{
 
 header{
 	width: 100%;
-	height: 90%;
+	height: 90vh;
+	min-height: 500px;
 	padding: 40px 2%;
 	background-size: cover;
 	background-image: url(../imagens/capa.png);
@@ -56,8 +57,8 @@ header{
 
 .content-header{
 	color: white;
+	padding-right: 10%;
 	padding-top: 160px;
-	padding-right: 15%;
 }
 
 .content-header h2{
@@ -72,9 +73,54 @@ header{
 	font-weight: lighter;
 }
 
+.container-section{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
  section.section-1{
-	display: block;
-	height: 300px;
 	background-color: #472562;
 } 
 
+.section-1-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-section-1{
+	color: white;
+}
+
+.content-section-1 h2{
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+
+.content-section-1 p{
+	font-size: 13px;
+}
+
+.content-section-1 nav ul li{
+	font-size: 14px;
+	list-style-position: inside;
+}
+
+.content-section-1 button{
+	background-color: #FF703D;
+	border: 0;
+	padding: 10px 20px;
+	color: white;
+	font-size: 16px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.img-section-1{
+	max-width: 400px;
+	min-width: 260px;
+	width: 50%;
+	height: 300px;
+	background-image: url('../imagens/device.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
