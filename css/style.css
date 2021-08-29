@@ -51,31 +51,41 @@ header{
 	font-weight: lighter;
 }
 
+.menu-mobile{
+	display: none;
+}
+
+.menu-desktop{
+	display: block;
+}
+
 .menu-desktop ul li a:hover{
 	color: #ddd;
 }
 
+.menu-mobile ul li a:hover{
+	color: #ddd;
+}
+
+
+
 .menu-mobile{
-	display: none;
-	background-image: url(../imagens/menu.png);
-	background-size: 100% 100%;
-	width: 32px;
-	height: 32px;
-	cursor: pointer;
-	
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
 }
 
-.menu-mobile:hover ul{
-	display: block;
-}
 
-.menu-mobile ul{
-	display: none;
-}
+
 
 .menu-mobile ul li {
+	width: 100%;
 	font-weight: 300;
 	list-style-type: none;
+	padding: 7px 0;
+	background-color: #4725622d;
+	margin-top: 1px;
+	border: 1px solid #3f235777;
 }
 
 .menu-mobile ul li a{
@@ -174,6 +184,16 @@ header{
 
 	header{
 		height: 70vh;	
+		padding: 20px 0;
+	}
+
+	.container-flex-header{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+		
 	}
 
 	.menu-desktop{
@@ -184,8 +204,6 @@ header{
 		display: block;
 		
 	}
-
-
 
 	.flex-content-header{
 		height: 0px;
