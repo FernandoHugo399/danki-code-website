@@ -65,9 +65,6 @@ header{
 	
 }
 
-.menu-mobile:hover ul{
-	display: block;
-}
 
 .menu-mobile ul{
 	display: none;
