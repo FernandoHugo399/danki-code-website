@@ -30,6 +30,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding: 0 10px;
 	
 }
 
@@ -38,20 +39,24 @@ header{
 	font-size: 30px;
 }
 
-.menu ul li{
+.menu-desktop ul li{
 	display: inline-block;
 	padding: 0 20px;
 }
 
-.menu ul li a{
+.menu-desktop ul li a{
 	color: white;
 	font-size: 16px;
 	text-decoration: none;
 	font-weight: lighter;
 }
 
-.menu ul li a:hover{
+.menu-desktop ul li a:hover{
 	color: #ddd;
+}
+
+.menu-mobile{
+	display: none;
 }
 
 .flex-content-header{
@@ -92,6 +97,7 @@ header{
 .section-1-flex{
 	display: flex;
 	justify-content: space-between;
+	padding: 20px 20px 0 20px;
 }
 
 .content-section-1{
@@ -100,15 +106,16 @@ header{
 
 .content-section-1 h2{
 	font-weight: lighter;
+	font-size: 26px;
 	margin-bottom: 20px;
 }
 
 .content-section-1 p{
-	font-size: 13px;
+	font-size: 15px;
 }
 
 .content-section-1 nav ul li{
-	font-size: 13px;
+	font-size: 15px;
 	list-style-position: inside;
 }
 
@@ -136,4 +143,54 @@ header{
 	background-image: url('../imagens/device.png');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+}
+
+@media screen and (max-width:768px){
+
+	header{
+		height: 70vh;	
+	}
+
+	.menu-desktop{
+		display: none;
+	}
+
+	.menu-mobile{
+		display: block;
+	}
+
+	.flex-content-header{
+		height: 0px;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.content-header{
+		padding-right: 0;
+	}
+
+	.content-header h2{
+		font-size: 30px;
+	}
+
+	section.section-1{
+		background-color: #472562;
+		height: 30vh;
+	} 
+
+	.section-1-flex{
+		display: flex;
+		justify-content: center;
+		padding: 8px 0;
+		text-align: center;
+	}
+
+	.content-section-1 nav ul li{
+		text-align: justify;
+		padding-left: 35%;
+		margin-top: 8px;
+	}
+
+	.img-section-1{display: none;}
 }
