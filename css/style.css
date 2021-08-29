@@ -167,6 +167,40 @@ header{
 	background-size: 100% auto;
 }
 
+.section-2{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.flex-section-2{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 2%;
+}
+
+.content-section-2{
+	text-align: center;
+}
+
+.content-section-2 h2{
+	font-weight: 300;
+	color: #472562;
+	padding: 20px 0;
+}
+
+.content-section-2 p{
+	max-width: 900px;
+	color: #2c173d;
+}
+
+.content-section-2 img{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
 @media screen and (max-width:768px){
 
 	header{
@@ -181,8 +215,6 @@ header{
 		display: block;
 		
 	}
-
-
 
 	.flex-content-header{
 		height: 0px;
