@@ -220,7 +220,7 @@ header{
 		height: 0px;
 		text-align: center;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-end;
 	}
 
 	.content-header{
