@@ -57,7 +57,32 @@ header{
 
 .menu-mobile{
 	display: none;
+	background-image: url(../imagens/menu.png);
+	background-size: 100% 100%;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	
 }
+
+.menu-mobile:hover ul{
+	display: block;
+}
+
+.menu-mobile ul{
+	display: none;
+}
+
+.menu-mobile ul li {
+	font-weight: 300;
+	list-style-type: none;
+}
+
+.menu-mobile ul li a{
+	text-decoration: none;
+	color: white;
+}
+
 
 .flex-content-header{
 	display: flex;
@@ -157,7 +182,10 @@ header{
 
 	.menu-mobile{
 		display: block;
+		
 	}
+
+
 
 	.flex-content-header{
 		height: 0px;
@@ -176,7 +204,7 @@ header{
 
 	section.section-1{
 		background-color: #472562;
-		height: 30vh;
+		height: 240px;
 	} 
 
 	.section-1-flex{
