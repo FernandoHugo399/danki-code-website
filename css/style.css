@@ -86,6 +86,11 @@ header{
 	background-color: #4725622d;
 	margin-top: 1px;
 	border: 1px solid #3f235777;
+	cursor: pointer;
+}
+
+.menu-mobile ul li:hover{
+	background-color: #4725625d;
 }
 
 .menu-mobile ul li a{
