@@ -207,14 +207,7 @@ header{
 		height: 70vh;	
 	}
 
-	.menu-desktop{
-		display: none;
-	}
-
-	.menu-mobile{
-		display: block;
-		
-	}
+	
 
 	.flex-content-header{
 		height: 0px;
@@ -250,4 +243,15 @@ header{
 	}
 
 	.img-section-1{display: none;}
+}
+
+@media screen and (max-width:700px){
+	.menu-desktop{
+		display: none;
+	}
+
+	.menu-mobile{
+		display: block;
+		margin-right: 2%;
+	}
 }
