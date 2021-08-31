@@ -306,6 +306,7 @@ header{
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
+	cursor: pointer;
 }
 
 .box2  .slide span:first-of-type{
