@@ -197,8 +197,28 @@ header{
 
 .content-section-2 img{
 	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 10px;
+	position: relative;
+	top: 70px;
+}
+
+.section-3{
+	width: 100%;
+}
+
+.flex-section-3{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.content-section-3{
+	width: 100%;
+	height: 200px;
+	background-color: #472562;
+}
+
+.box1{
+	background-color: #835FA7;
 }
 
 @media screen and (max-width:768px){
@@ -206,8 +226,6 @@ header{
 	header{
 		height: 70vh;	
 	}
-
-	
 
 	.flex-content-header{
 		height: 0px;
@@ -252,6 +270,6 @@ header{
 
 	.menu-mobile{
 		display: block;
-		margin-right: 2%;
+		margin-right: 2%r;
 	}
 }
