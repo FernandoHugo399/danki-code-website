@@ -215,8 +215,101 @@ header{
 
 .content-section-2 img{
 	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 10px;
+	position: relative;
+	top: 70px;
+}
+
+.flex-section-3{
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.clear{
+	clear: both;
+}
+
+.content-section-3{
+	width: 50%;
+	padding-top: 130px;
+	padding-bottom: 90px;
+	background-color: #835FA7;
+	padding-right: 2%;
+}
+
+.p2{
+	background-color: white;
+}
+
+.box1{
+	max-width: 600px;
+	color: white;
+	float: right;
+}
+
+.box1 h2{
+	font-weight: 300;
+	margin-bottom: 15px;
+	font-style: italic;
+}
+
+.box1 p{
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.box2{
+	padding-left: 4%;
+	max-width: 600px;
+}
+
+.box2 .author{
+	display: flex;
+	align-items: center;
+}
+
+.box2 .author h2{
+	font-weight: normal;
+	font-size: 22px;
+	color: #222;
+}
+
+.box2 .author p {
+	font-style: italic;
+	font-size: 14px;
+	color: rgb(104, 96, 96);
+	font-weight: 300;
+	padding-top: 3px;
+}
+
+.box2 .image{
+	margin-left: 15px;
+	width: 50px;
+	height: 50px;
+	background-image: url("../imagens/Hugo\ Fernando.jpeg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.box2 p {
+	font-size: 15px;
+	color: #222;
+	padding-top: 15px;
+}
+
+.box2  .slide span{
+	margin-top: 10px;
+	margin-right: 5px;
+	display: inline-block;
+	background-color: #ccc;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+.box2  .slide span:first-of-type{
+	background-color: black;
 }
 
 @media screen and (max-width:768px){
