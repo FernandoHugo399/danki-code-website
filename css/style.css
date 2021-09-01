@@ -429,7 +429,46 @@ header{
 		margin-top: 8px;
 	}
 
-	.img-section-1{display: none;}
+	.img-section-1{
+		display: none;
+	}
+
+	.flex-section-4{
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.content-section-4{
+		width: 100%;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.box1-f4{
+		padding:2%;
+		float: none;
+		display: inline-block;
+		margin-right: 0;
+		
+	}
+
+	.box2-f4 {
+		padding:2%;
+	}
+
+	.box2-f4 h2{
+		margin-top: 50px;
+	}
+
+	.box2-f4 .map{
+		max-width: 450px;
+		max-height: 450px;
+		width: 90%;
+		height: 86vw;
+		border: 5px solid #ccc;
+		display: inline-block;
+	}
+
 }
 
 @media screen and (max-width:700px){
