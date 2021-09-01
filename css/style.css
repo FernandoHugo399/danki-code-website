@@ -375,8 +375,6 @@ header{
 .box2-f4 .map{
 	max-width: 460px;
 	max-height: 460px;
-	min-width: 350px;
-	min-height: 350px;
 	width: 35vw;
 	height: 35vw;
 	border: 5px solid #ccc;
