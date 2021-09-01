@@ -241,7 +241,6 @@ header{
 }
 
 .box2{
-	padding-left: 4%;
 	max-width: 600px;
 }
 
@@ -480,4 +479,16 @@ header{
 		display: block;
 		margin-right: 2%r;
 	}
+}
+
+@media screen and (max-width: 580px){
+	.flex-section-3{
+		flex-direction: column;
+	}
+
+	.content-section-3{
+		width: 100%;
+		padding: 90px 2% 50px 2%;
+	}
+	
 }
