@@ -51,46 +51,28 @@ header{
 	font-weight: lighter;
 }
 
-.menu-mobile{
-	display: none;
-}
-
-.menu-desktop{
-	display: block;
-}
-
 .menu-desktop ul li a:hover{
 	color: #ddd;
 }
 
-.menu-mobile ul li a:hover{
-	color: #ddd;
-}
-
-
-
 .menu-mobile{
-	margin-top: 20px;
-	width: 100%;
-	text-align: center;
+	display: none;
+	background-image: url(../imagens/menu.png);
+	background-size: 100% 100%;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	
 }
 
 
-
+.menu-mobile ul{
+	display: none;
+}
 
 .menu-mobile ul li {
-	width: 100%;
 	font-weight: 300;
 	list-style-type: none;
-	padding: 7px 0;
-	background-color: #4725622d;
-	margin-top: 1px;
-	border: 1px solid #3f235777;
-	cursor: pointer;
-}
-
-.menu-mobile ul li:hover{
-	background-color: #4725625d;
 }
 
 .menu-mobile ul li a{
@@ -230,11 +212,12 @@ header{
 }
 
 .content-section-3{
-	width: 100%;
+	width: 50%;
 	padding-top: 130px;
 	padding-bottom: 90px;
-	background-color: #765696;
+	background-color: #835FA7;
 	padding-right: 2%;
+	padding-left: 2%;
 }
 
 .p2{
@@ -245,7 +228,6 @@ header{
 	max-width: 600px;
 	color: white;
 	float: right;
-	padding-left: 2%;
 }
 
 .box1 h2{
@@ -260,7 +242,6 @@ header{
 }
 
 .box2{
-	padding-left: 4%;
 	max-width: 600px;
 }
 
@@ -425,36 +406,18 @@ footer{
 	font-size: 15px;
 }
 
+
 @media screen and (max-width:768px){
 
 	header{
 		height: 70vh;	
-		padding: 20px 0;
-	}
-
-	.container-flex-header{
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 0;
-		
-	}
-
-	.menu-desktop{
-		display: none;
-	}
-
-	.menu-mobile{
-		display: block;
-		
 	}
 
 	.flex-content-header{
 		height: 0px;
 		text-align: center;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-end;
 	}
 
 	.content-header{
@@ -523,7 +486,6 @@ footer{
 		height: 86vw;
 		border: 5px solid #ccc;
 		display: inline-block;
-
 	}
 
 	.flex-footer{
@@ -536,7 +498,16 @@ footer{
 	}
 }
 
+@media screen and (max-width:700px){
+	.menu-desktop{
+		display: none;
+	}
 
+	.menu-mobile{
+		display: block;
+		margin-right: 2%r;
+	}
+}
 
 @media screen and (max-width: 580px){
 	.flex-section-3{
@@ -544,8 +515,8 @@ footer{
 	}
 
 	.content-section-3{
-		padding-top: 90px;
-		padding-bottom: 50px;
+		width: 100%;
+		padding: 90px 2% 50px 2%;
 	}
 	
 }
