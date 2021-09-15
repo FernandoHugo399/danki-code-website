@@ -1,4 +1,4 @@
-# Third LadingPage
+# Third Project
 ![part1](https://user-images.githubusercontent.com/87580316/132258965-ef91f17b-74e2-4269-9119-d955dc5ab6df.jpg)
 ![part2](https://user-images.githubusercontent.com/87580316/132258964-bf22f719-b23c-4965-837c-9a3c4e178139.jpg)
 ![part3](https://user-images.githubusercontent.com/87580316/132258960-7f03ba6e-2848-471b-b2b5-d439a99c1239.jpg)
@@ -8,7 +8,9 @@
 ---
 
 ## :mag: About 
-Project based on one of the practical projects of the danki code course
+Project made to practice responsive design
+<br>
+recreating the main page of the danki code site
 
 ## :rocket: Technologies used:
 <p align="center">
