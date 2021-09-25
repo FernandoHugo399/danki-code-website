@@ -299,7 +299,7 @@ header{
 	padding-top: 15px;
 }
 
-.box2  .slide span{
+.box2  .slide .bullet-single{
 	margin-top: 10px;
 	margin-right: 5px;
 	display: inline-block;
@@ -310,8 +310,8 @@ header{
 	cursor: pointer;
 }
 
-.box2  .slide span:first-of-type{
-	background-color: black;
+.active-bullet{
+	background-color: black !important;
 }
 
 .section-4{
