@@ -75,7 +75,8 @@ header{
 	width: 100%;
 	position: absolute;
 	text-align: center;
-	background-color: #2c173d5b;
+	background-image: linear-gradient(#2c173d00 ,#2c173d6c);
+	/* background-color: #2c173d5b; */
 	height: 0;
 	overflow: hidden;
 	transition: 0.6s;
@@ -85,6 +86,10 @@ header{
 .mobah{
 	height: 175px;
 	border-bottom: 2px solid #2c173d;
+}
+
+.padtop{
+	padding-top: 170px !important;
 }
 
 .menu-mobile ul li {
@@ -110,6 +115,7 @@ header{
 	max-height: 300px;
 	min-height: 250px;
 	height: 100vh;
+	transition: 0.6s;
 }
 
 .content-header{
@@ -456,7 +462,7 @@ footer{
 
 	.flex-content-header{
 		padding: 0 2%;
-		padding-top: 170px;
+		padding-top: 50px;
 		text-align: center;
 		justify-content: center;
 		align-items: center;
