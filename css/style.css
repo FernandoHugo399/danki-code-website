@@ -78,6 +78,7 @@ header{
 	height: 0;
 	overflow: hidden;
 	transition: 1s;
+	display: none;
 }
 
 .mobah{
@@ -445,6 +446,10 @@ footer{
 	.icon-menu-mobile{
 		display: block;
 		
+	}
+
+	.menu-mobile{
+		display: block;
 	}
 
 	.flex-content-header{
