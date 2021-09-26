@@ -51,9 +51,6 @@ header{
 	font-weight: lighter;
 }
 
-.menu-mobile{
-	display: none;
-}
 
 .menu-desktop{
 	display: block;
@@ -63,11 +60,6 @@ header{
 	color: #ddd;
 }
 
-.menu-mobile ul li a:hover{
-	color: #ddd;
-}
-
-
 
 .icon-menu-mobile{
 	width: 40px;
@@ -76,6 +68,35 @@ header{
 	background-position: center;
 	background-size: cover;
 	cursor: pointer;
+	display: none;
+}
+
+.menu-mobile{
+	border-bottom: 2px solid #2c173d;
+	text-align: center;
+	background-color: #2c173d28;
+	height: 0;
+	overflow: hidden;
+	transition: 1s;
+}
+
+.mobah{
+	height: 175px;
+}
+
+.menu-mobile ul li {
+	padding: 10px 0;
+}
+
+.menu-mobile ul li a{ 
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+.menu-mobile ul li a:hover{
+	color: #ddd;
 }
 
 
@@ -421,7 +442,7 @@ footer{
 		display: none;
 	}
 
-	.menu-mobile{
+	.icon-menu-mobile{
 		display: block;
 		
 	}
