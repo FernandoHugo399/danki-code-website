@@ -3,8 +3,6 @@
 ![part2](https://user-images.githubusercontent.com/87580316/132258964-bf22f719-b23c-4965-837c-9a3c4e178139.jpg)
 ![part3](https://user-images.githubusercontent.com/87580316/132258960-7f03ba6e-2848-471b-b2b5-d439a99c1239.jpg)
 ![part4](https://user-images.githubusercontent.com/87580316/132363660-7f219e2e-fa5b-40c1-ae26-c477c3b81ac4.jpg)
-
-
 ---
 
 ## :mag: About 
